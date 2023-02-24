@@ -1,4 +1,4 @@
-module github.com/mrtc0/1password-aws-sso
+module github.com/mrtc0/aws-sso-go
 
 go 1.19
 
