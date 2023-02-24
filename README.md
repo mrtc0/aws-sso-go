@@ -38,7 +38,7 @@ $ chmod +x /usr/local/bin/update-1password-aws-credentials.sh
 # Usage
 
 ```shell
-$ aws-sso-go | update-1password-aws-credentials.sh <1Password item name>
+$ aws-sso-go --profile <profile> | update-1password-aws-credentials.sh <1Password item name>
 $ cat .env
 AWS_ACCESS_KEY_ID="op://Private/<1Password item name>/access key id"
 AWS_SECRET_ACCESS_KEY="op://Private/<1Password item name>/secret access key"
