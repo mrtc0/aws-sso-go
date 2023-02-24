@@ -3,7 +3,7 @@
 # Motivation
 
 1Password's AWS Shell Plugin is very useful for managing AWS credentials. However, it does not support AWS SSO (`aws sso login`). This project aims to provide a solution to this problem.  
-aws-sso-go is output credentials as STDOUT instead of storing them in `~/.aws/sso/cache`. Pipe the result to `misc/update-1password-aws-credentials.sh` to add it to 1Password.
+aws-sso-go is output credentials as STDOUT instead of storing them in `~/.aws/sso/cache`. By saving the output to 1Password with a tool like `misc/update-1password-aws-credentials.sh`, you can use `op run --env-file .env` to handle AWS credentials.
 
 # Install
 
