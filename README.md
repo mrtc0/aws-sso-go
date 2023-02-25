@@ -1,5 +1,7 @@
 # aws-sso-go
 
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/mrtc0/aws-sso-go/badge)](https://api.securityscorecards.dev/projects/github.com/mrtc0/aws-sso-go)
+
 # Motivation
 
 1Password's AWS Shell Plugin is very useful for managing AWS credentials. However, it does not support AWS SSO (`aws sso login`). This project aims to provide a solution to this problem.  
