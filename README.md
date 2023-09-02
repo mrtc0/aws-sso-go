@@ -41,7 +41,7 @@ $ chmod +x /usr/local/bin/update-1password-aws-credentials.sh
 # Usage
 
 ```shell
-export AWS_REGION=<YOUR SSO Endpoint Region>
+$ export AWS_REGION=<YOUR SSO Endpoint Region>
 $ aws-sso-go --profile <profile> | update-1password-aws-credentials.sh <1Password item name>
 $ cat .env
 AWS_ACCESS_KEY_ID="op://Private/<1Password item name>/access key id"
