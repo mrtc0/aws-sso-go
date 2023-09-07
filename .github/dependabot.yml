@@ -13,3 +13,8 @@ updates:
     directory: "/"
     schedule:
       interval: daily
+    groups:
+      aws-sdk:
+        patterns:
+          - github.com/aws/aws-sdk-go-v2
+          - github.com/aws/aws-sdk-go-v2/*
