@@ -18,7 +18,7 @@ import (
 )
 
 var (
-	clientName = "1password-aws-sso"
+	clientName = "aws-sso-go"
 	clientType = "public"
 	grantType  = "urn:ietf:params:oauth:grant-type:device_code"
 )
