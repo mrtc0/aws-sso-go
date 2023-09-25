@@ -5,6 +5,7 @@ import (
 	"encoding/json"
 	"errors"
 	"flag"
+	"fmt"
 	"log"
 	"os"
 	"os/exec"
@@ -84,6 +85,9 @@ func main() {
 	}
 
 	createTokenInput := ssooidc.CreateTokenInput{ClientId: registerClientOutput.ClientId, ClientSecret: registerClientOutput.ClientSecret, DeviceCode: startDeveiceAuthorizationOutput.DeviceCode, GrantType: &grantType}
+
+	userCode := *startDeveiceAuthorizationOutput.UserCode
+	fmt.Fprintf(os.Stderr, "One-time user verification code: %s\n", userCode)
 
 	launchBrowser(*startDeveiceAuthorizationOutput.VerificationUriComplete)
 
