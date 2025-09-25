@@ -1,6 +1,6 @@
 # aws-sso-go
 
-[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/mrtc0/aws-sso-go/badge)](https://api.securityscorecards.dev/projects/github.com/mrtc0/aws-sso-go)
+[![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/mrtc0/aws-sso-go/badge)](https://scorecard.dev/viewer/?uri=github.com/mrtc0/aws-sso-go)
 [![CodeQL](https://github.com/mrtc0/aws-sso-go/actions/workflows/codeql.yml/badge.svg)](https://github.com/mrtc0/aws-sso-go/actions/workflows/codeql.yml)
 
 # Motivation
